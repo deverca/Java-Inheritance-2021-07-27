@@ -6,7 +6,7 @@ public class Animal {
     public boolean eating;
     public boolean running;
 
-    public Animal(int age, int weight, boolean eating, boolean running){
+    public Animal(int age, int weight, boolean eating, boolean running) {
 
         this.age = age;
         this.weight = weight;
@@ -21,10 +21,12 @@ public class Animal {
     public void setAge(int age) {
         this.age = age;
     }
-    public int getWeight(){
+
+    public int getWeight() {
         return weight;
     }
-    public void setWeight(int weight){
+
+    public void setWeight(int weight) {
         this.weight = weight;
     }
 
